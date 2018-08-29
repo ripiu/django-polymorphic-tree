@@ -1,0 +1,96 @@
+# This file is distributed under the same license as the
+# django-polymorphic-tree package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-29 17:16+0200\n"
+"PO-Revision-Date: 2018-08-29 17:16+0200\n"
+"Last-Translator: matteo vezzola\n"
+"Language-Team: Italian <LL@li.org>\n"
+"Language: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/parentadmin.py:25
+msgid "Node type"
+msgstr "Tipo di nodo"
+
+#: admin/parentadmin.py:30
+msgid "node type"
+msgstr "tipo di nodo"
+
+#: admin/parentadmin.py:82
+msgid "Actions"
+msgstr "Azioni"
+
+#: admin/parentadmin.py:93
+msgid "Add sub node"
+msgstr "Aggiungi un nodo figlio"
+
+#: admin/parentadmin.py:102
+msgid "View on site"
+msgstr "Vedi sul sito"
+
+#: admin/parentadmin.py:166
+msgid "You do not have permission to move this node."
+msgstr "Non hai il permesso per spostare questo nodo."
+
+#: models.py:44 models.py:198
+msgid "This node type should have a parent."
+msgstr "Questo tipo di nodo deve avere un genitore."
+
+#: models.py:45
+msgid "The selected parent cannot have child nodes."
+msgstr "Il genitore selezionato non può avere nodi figli."
+
+#: models.py:46
+msgid "The selected parent cannot have this node type as a child!"
+msgstr "Il genitore selezionato non può avere figli di questo tipo!"
+
+#: models.py:202
+#, python-brace-format
+msgid "Cannot place ‘{0}’ below ‘{1}’; a {2} does not allow children!"
+msgstr "Non posso spostare ‘{0}’ sotto ‘{1}’; un {2} non ammette figli!"
+
+#: models.py:208
+#, python-brace-format
+msgid "Cannot place ‘{0}’ below ‘{1}’; a {2} does not allow {3} as a child!"
+msgstr ""
+"Non posso spostare ‘{0}’ sotto ‘{1}’; un {2} non ammette {3} come figlio!"
+
+#: templates/admin/polymorphic_tree/change_form_breadcrumbs.html:5
+#: templates/admin/polymorphic_tree/delete_confirmation.html:7
+#: templates/admin/polymorphic_tree/object_history_breadcrumbs.html:5
+msgid "Home"
+msgstr "Inizio"
+
+#: templates/admin/polymorphic_tree/change_form_breadcrumbs.html:16
+msgid "Add"
+msgstr "Aggiungi"
+
+#: templates/admin/polymorphic_tree/delete_confirmation.html:16
+msgid "Delete"
+msgstr "Cancella"
+
+#: templates/admin/polymorphic_tree/jstree_list_results.html:115
+msgid ""
+"Unable to move the node, the current display is out-of-date.\\nThe current "
+"page now reloaded."
+msgstr ""
+"Impossibile spostare il nodo, la schermata corrente è errata.\\nLa pagina "
+"verrà ricaricata."
+
+#: templates/admin/polymorphic_tree/jstree_list_results.html:123
+msgid ""
+"There was an error while moving the node, please reload the current page."
+msgstr ""
+"C'è stato un errore spostando il nodo, ricarica la pagina."
+
+#: templates/admin/polymorphic_tree/object_history_breadcrumbs.html:16
+msgid "History"
+msgstr "Cronologia"
