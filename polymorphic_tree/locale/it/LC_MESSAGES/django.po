@@ -89,7 +89,7 @@ msgstr ""
 msgid ""
 "There was an error while moving the node, please reload the current page."
 msgstr ""
-"C'è stato un errore spostando il nodo, ricarica la pagina."
+"C\\'è stato un errore spostando il nodo, ricarica la pagina."
 
 #: templates/admin/polymorphic_tree/object_history_breadcrumbs.html:16
 msgid "History"
